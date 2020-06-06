@@ -1,3 +1,9 @@
 body{
     background: #cad2c5;
 }
+.bmi-modal{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
