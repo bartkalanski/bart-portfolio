@@ -1,62 +1,111 @@
-
-header{
+header {
     background: url('img/snowdonia1.jpg');
     background-size: cover;
     background-position: center;
     min-height: 1000px;
 }
-#head{
+
+#head {
     position: relative;
     top: 20vh;
     border: 1px ridge grey;
-    -webkit-box-shadow: 3px -2px 129px 30px rgba(102,100,102,1);
--moz-box-shadow: 3px -2px 129px 30px rgba(102,100,102,1);
-box-shadow: 3px -2px 129px 30px rgba(102,100,102,1);
+    -webkit-box-shadow: 3px -2px 129px 30px rgba(102, 100, 102, 1);
+    -moz-box-shadow: 3px -2px 129px 30px rgba(102, 100, 102, 1);
+    box-shadow: 3px -2px 129px 30px rgba(102, 100, 102, 1);
 }
-h1{
-    
+
+h1 {
     font-size: 5rem;
 }
-body{
+
+body {
     background: lightgrey;
 }
-.section{
+
+.section {
     padding-top: 4vh;
     padding-bottom: 4vh;
 }
-.tabs .indicator{
+
+.tabs .indicator {
     background-color: grey;
 }
-.tabs .tab a:focus, .tabs .tab a:focus.active{
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
     background: transparent;
 }
-@media screen and (max-width: 414px){
-    header{
+
+@media screen and (max-width: 414px) {
+    header {
         min-height: 500px;
         width: 100%;
         background-position: right
-        }
-        #head{
-            position: relative;
-            top: 20vh;
-            font-size: 3rem;
-            
-        }
-        #logo{
-            font-size: 2rem;
-        }
+    }
+    #head {
+        position: relative;
+        top: 20vh;
+        font-size: 3rem;
+    }
+    #logo {
+        font-size: 2rem;
+    }
 }
-@media screen and (max-width: 670px){
-    header{
+
+
+/* label color */
+
+.input-field label {
+    color: #444;
+}
+
+
+/* label focus color */
+
+.input-field input:focus+label {
+    color: #444;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 1px 0 0 #444;
+}
+
+
+/* valid color */
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 1px 0 0 #444;
+}
+
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 1px 0 0 #444;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #444;
+}
+
+@media screen and (max-width: 670px) {
+    header {
         min-height: 500px;
         width: 100%;
-        }
-        #head{
-
-        }
+    }
 }
-@media screen and (min-height: 1000px){
-    #head{
-     top: 20vh;
+
+@media screen and (min-height: 1000px) {
+    #head {
+        top: 20vh;
     }
 }
