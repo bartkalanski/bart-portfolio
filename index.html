@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- CSS-->
     <link rel="stylesheet" href="styles.css">
     <title>Bart Kalanski</title>
 </head>
@@ -25,8 +28,8 @@
                     <i class="material-icons grey-text">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#photos" class="grey-text text-darken-2">About Me</a></li>
-                    <li><a href="#services" class="grey-text text-darken-2">Projects</a></li>
+                    <li><a href="#about" class="grey-text text-darken-2">About Me</a></li>
+                    <li><a href="#projects" class="grey-text text-darken-2">Projects</a></li>
                     <li><a href="#contact" class="grey-text text-darken-2">Contact</a></li>
                     <li>
                         <a href="#" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="LinkedIn">
@@ -45,9 +48,9 @@
                     </li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
-                    <li><a href="#">Photo's</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -59,7 +62,7 @@
 
     <!-- Intro and service -->
     <div id="intro" class="section">
-        <div class="container">
+        <div class="container scrollspy" id="about">
             <div class="row">
                 <div class="col s12">
                     <h2 class="center header">A Little About Me: </h2>
@@ -75,7 +78,7 @@
                         I am a self taught web developer, with a working proficiency in HTML, CSS, Materialize, JavaScript and Node. I have a solid understanding of Git version control.
                     </p>
                     <i class="material-icons">code</i>
-                    <p>My goal is to continually grow as a developer while staying with the latest trends and technologies. I am looking to further expand my front end skill set by learning React, as well as gaining more in depth back end knowledge.
+                    <p>My goal is to continually grow as a developer while staying current with the latest trends and technologies. I am looking to further expand my front end skill set by learning React, as well as gaining more in depth back end knowledge.
                     </p>
                     <i class="material-icons">code</i>
                     <p>
@@ -92,53 +95,53 @@
     </div>
     <div class=" divider "></div>
     <!--Projects-->
-    <section id="work ">
-        <div class="container ">
+    <section class="scrollspy" id="projects">
+        <div class="container">
             <h3 class="header text_b center ">My Projects </h3>
             <div class="row ">
                 <div class="col s12 m12 l4 ">
-                    <div class="card hoverable black ">
+                    <div class="card hoverable brown lighten-5">
                         <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/bmi-screenshot.jpg ">
+                            <img class="activator " src="img/bmi-screenshot.png">
                         </div>
-                        <div class="card-content ">
-                            <span class="card-title activator purple-text text-lighten-5 ">BMI Calculator<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="purple-text text-lighten-5 " href="https://bkalan011.github.io/bmi-calculator/ " target="_blank ">Project link</a></p>
+                        <div class="card-content">
+                            <span class="card-title activator black-text text-lighten-5 ">BMI Calculator<i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/bmi-calculator/ " target="_blank ">Project link</a></p>
                         </div>
-                        <div class="card-reveal black ">
-                            <span class="card-title purple-text text-lighten-5 ">Project Title <i class="mdi-navigation-close right "></i></span>
+                        <div class="card-reveal brown lighten-5 ">
+                            <span class="card-title black-text text-lighten-5 ">BMI Calculator <i class="mdi-navigation-close right "></i></span>
                             <p>Here is some more information about this project that is only revealed once clicked on.</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="col s12 l4 ">
-                    <div class="card hoverable black ">
+                    <div class="card hoverable brown lighten-5">
                         <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/tip-screenshot.jpg ">
+                            <img class="activator " src="img/tip-screenshot.png ">
                         </div>
                         <div class="card-content ">
-                            <span class="card-title activator purple-text text-lighten-5 ">Tip Calculator <i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="purple-text text-lighten-5 " href="https://bkalan011.github.io/tip-calculator/ " target="_blank ">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5 ">Tip Calculator <i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/tip-calculator/ " target="_blank ">Project link</a></p>
                         </div>
-                        <div class="card-reveal black ">
-                            <span class="card-title purple-text text-lighten-5 ">Project Title <i class="mdi-navigation-close right "></i></span>
+                        <div class="card-reveal brown lighten-5">
+                            <span class="card-title black-text text-lighten-5 ">Tip Calculator <i class="mdi-navigation-close right "></i></span>
                             <p>Here is some more information about this project that is only revealed once clicked on.</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="col s12 l4 ">
-                    <div class="card hoverable black ">
+                    <div class="card hoverable brown lighten-5">
                         <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/tip-screenshot.jpg ">
+                            <img class="activator " src="img/memo-screenshot.png">
                         </div>
                         <div class="card-content ">
-                            <span class="card-title activator purple-text text-lighten-5 ">Tip Calculator <i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="purple-text text-lighten-5 " href="# ">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5 ">Memory Game<i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/memory-card-game/">Project link</a></p>
                         </div>
-                        <div class="card-reveal black ">
-                            <span class="card-title purple-text text-lighten-5 ">Project Title <i class="mdi-navigation-close right "></i></span>
+                        <div class="card-reveal brown lighten-5">
+                            <span class="card-title black-text text-lighten-5 ">Memory Game <i class="mdi-navigation-close right "></i></span>
                             <p>Here is some more information about this project that is only revealed once clicked on.</p>
                         </div>
                     </div>
@@ -161,7 +164,7 @@
             </div>
             <div class="row center ">
                 <div class="col s12 m12 l3 ">
-                    <img class="responsive-img " src="img/JS.png ">
+                    <img class="responsive-img " src="img/JS.png " id="js-logo">
                 </div>
                 <div class="col s12 m12 l3 ">
                     <img class="responsive-img " src="img/imageedit_2_6781964224.png ">
@@ -183,7 +186,7 @@
         </div>
     </div>
     <!-- contact form -->
-    <div class="container">
+    <div class="container scrollspy" id="contact">
         <div class="row">
             <div class="col m10 offset-m1 s12">
                 <h2 class="center-align">Contact Form</h2>
@@ -221,7 +224,7 @@
             <div class="row ">
                 <div class="col s12 l6 ">
                     <h5>About Me</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam voluptatem dolorum beatae consequatur alias incidunt neque voluptate eius, enim nihil.</p>
+                    <p>Web Developer based in Greater Manchester.</p>
                 </div>
                 <div class="col s12 l4 offset-l2 ">
                     <h5>Connect</h5>

@@ -20,8 +20,8 @@ h1 {
 
 body {
     background: lightgrey;
+    font-family: 'Roboto Mono', monospace;
 }
-
 .section {
     padding-top: 4vh;
     padding-bottom: 4vh;
@@ -34,22 +34,6 @@ body {
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
     background: transparent;
-}
-
-@media screen and (max-width: 414px) {
-    header {
-        min-height: 500px;
-        width: 100%;
-        background-position: right
-    }
-    #head {
-        position: relative;
-        top: 20vh;
-        font-size: 3rem;
-    }
-    #logo {
-        font-size: 2rem;
-    }
 }
 
 
@@ -97,6 +81,22 @@ body {
     color: #444;
 }
 
+@media screen and (max-width: 414px) {
+    header {
+        min-height: 500px;
+        width: 100%;
+        background-position: right
+    }
+    #head {
+        position: relative;
+        top: 20vh;
+        font-size: 3rem;
+    }
+    #logo {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 670px) {
     header {
         min-height: 500px;
@@ -107,5 +107,30 @@ body {
 @media screen and (min-height: 1000px) {
     #head {
         top: 20vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        min-height: 500px;
+        width: 100%;
+    }
+    #js-logo {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-family: Open serif;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1rem;
     }
 }
