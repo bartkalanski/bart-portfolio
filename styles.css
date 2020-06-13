@@ -18,10 +18,15 @@ h1 {
     font-size: 5rem;
 }
 
+p {
+    line-height: 130%;
+}
+
 body {
     background: lightgrey;
     font-family: 'Roboto Mono', monospace;
 }
+
 .section {
     padding-top: 4vh;
     padding-bottom: 4vh;
@@ -117,6 +122,12 @@ body {
     }
     #js-logo {
         margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 994px) and (max-width: 1164px) {
+    #card-title {
+        font-size: 18px;
     }
 }
 
