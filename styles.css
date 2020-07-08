@@ -107,7 +107,7 @@ body {
     header {
         min-height: 500px;
         width: 100%;
-        background-position: right
+        background-position: right;
     }
     #head {
         position: relative;
@@ -115,6 +115,30 @@ body {
         font-size: 3rem;
     }
     #logo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 790px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
         font-size: 2rem;
     }
 }
@@ -142,23 +166,15 @@ body {
     }
 }
 
-@media screen and (min-width: 994px) and (max-width: 1164px) {
+@media screen and (min-width: 914px) and (max-width: 1400px) {
     #card-title {
-        font-size: 18px;
+        font-size: 14px;
+    }
+    .card-content a {
+        font-size: 10px;
+        margin-bottom: 5px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    body {
-        font-family: Open serif;
-    }
-    h1 {
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1rem;
-    }
+
 }

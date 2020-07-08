@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Open Graph-->
+    <meta property="og:title" content="Bart Kalanski Portfolio" />
+    <meta property="og:description" content="Check out my portfolio for all things HTML/CSS, JS, Node and Materialize" />
+    <meta property="og:image" content="img/snowdonia-main.jpg" />
+    <meta property="og:url" content="https://bart-portfolio.netlify.app/" />
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--Import Google Icon Font-->
@@ -23,7 +28,7 @@
     <header>
         <nav class="nav-wrapper transparent">
             <div class="container">
-                <a href="" class="brand-logo white-text" id="logo">Bart Kalanski</a>
+                <a href="" class="brand-logo white-text hide-on-med-and-down" id="logo">Bart Kalanski</a>
                 <a href="" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons grey-text">menu</i>
                 </a>
@@ -32,7 +37,7 @@
                     <li><a href="#projects" class="white-text">Projects</a></li>
                     <li><a href="#contact" class="white-text">Contact</a></li>
                     <li>
-                        <a href="https://www.linkedin.com/in/bart-kalanski-12749762/" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="LinkedIn">
+                        <a href="https://www.linkedin.com/in/bart-kalanski/" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="LinkedIn">
                             <i class="fab fa-LinkedIn"></i>
                         </a>
                     </li>
@@ -42,7 +47,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/bartkodes" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="twitter">
+                        <a href="https://twitter.com/bartkodes" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="Twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
@@ -56,7 +61,7 @@
         </nav>
         <div class="container" id="head">
             <h1 class="white-text center-align">Hello, I'm Bart.</h1>
-            <h3 class="white-text center-align">Web Developer.</h3>
+            <h3 class="white-text center-align">Software Developer.</h3>
         </div>
     </header>
 
@@ -75,7 +80,7 @@
                 <div class="col s12 m12 offset-l1 l8 ">
                     <h4 class="center">Bart Kalanski</h4>
                     <p>
-                        I am a self taught web developer, with a working proficiency in HTML, CSS, Materialize, JavaScript and Node. I have a solid understanding of Git version control.
+                        I am a self taught software developer, with a working proficiency in HTML, CSS, Sass, Materialize, JavaScript and Node. I have a solid understanding of Git version control.
                     </p>
                     <i class="material-icons">code</i>
                     <p>My goal is to continually grow as a developer while staying current with the latest trends and technologies. I am looking to further expand my front end skill set by learning React, as well as gaining more in depth back end knowledge.
@@ -107,8 +112,9 @@
                             <img class="activator " src="img/weather-screenshot.png">
                         </div>
                         <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 " id="card-title">Weather App<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/weather-app/">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Weather App<i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 left" href="https://bkalan011.github.io/weather-app/">Project link</a></p>
+                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bkalan011/weather-app">Github link</a></p>
                         </div>
                         <div class="card-reveal brown lighten-5">
                             <span class="card-title black-text text-lighten-5 ">Technologies used:<i class="mdi-navigation-close right "></i></span>
@@ -123,12 +129,30 @@
                             <img class="activator " src="img/hiking-guide-screenshot.jpg">
                         </div>
                         <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 " id="card-title">Hiking Guide<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 " href="https://hiking-guide.netlify.app/">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Hiking Guide<i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 left" href="https://hiking-guide.netlify.app/">Project link</a></p>
+                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bkalan011/hiking-guide">Github link</a></p>
                         </div>
                         <div class="card-reveal brown lighten-5">
                             <span class="card-title black-text text-lighten-5 ">Technologies used:<i class="mdi-navigation-close right "></i></span>
                             <p class=""> HTML <br> CSS <br> JavaScript <br> REST API <br> JSON <br> Webpack
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4 ">
+                    <div class="card hoverable brown lighten-5">
+                        <div class="card-image waves-effect waves-block waves-light ">
+                            <img class="activator " src="img/memo-screenshot.png">
+                        </div>
+                        <div class="card-content ">
+                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Memory Game<i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 left" href="https://bkalan011.github.io/memory-card-game/">Project link</a></p>
+                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bkalan011/memory-card-game">Github link</a></p>
+                        </div>
+                        <div class="card-reveal brown lighten-5">
+                            <span class="card-title black-text text-lighten-5 ">Technologies used:<i class="mdi-navigation-close right "></i></span>
+                            <p class=""> HTML <br> CSS <br> JavaScript <br> REST API <br> JSON
                             </p>
                         </div>
                     </div>
@@ -139,8 +163,9 @@
                             <img class="activator " src="img/bmi-screenshot.png">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator black-text text-lighten-5 " id="card-title">BMI Calculator<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/bmi-calculator/ " target="_blank ">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">BMI Calculator<i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 left" href="https://bkalan011.github.io/bmi-calculator/ " target="_blank ">Project link</a></p>
+                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bkalan011/bmi-calculator">Github link</a></p>
                         </div>
                         <div class="card-reveal brown lighten-5 ">
                             <span class="card-title black-text text-lighten-5 ">Technologies used:<i class="mdi-navigation-close right "></i></span>
@@ -152,30 +177,16 @@
                     </div>
 
                 </div>
-                <div class="col s12 l4 ">
-                    <div class="card hoverable brown lighten-5">
-                        <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/memo-screenshot.png">
-                        </div>
-                        <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 " id="card-title">Memory Game<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/memory-card-game/">Project link</a></p>
-                        </div>
-                        <div class="card-reveal brown lighten-5">
-                            <span class="card-title black-text text-lighten-5 ">Technologies used:<i class="mdi-navigation-close right "></i></span>
-                            <p class=""> HTML <br> CSS <br> JavaScript <br> REST API <br> JSON
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col s12 l4 ">
                     <div class="card hoverable brown lighten-5">
                         <div class="card-image waves-effect waves-block waves-light ">
                             <img class="activator " src="img/tip-screenshot.png ">
                         </div>
                         <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 " id="card-title">Tip Calculator <i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/tip-calculator/ " target="_blank ">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Tip Calculator <i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 left" href="https://bkalan011.github.io/tip-calculator/ " target="_blank ">Project link</a></p>
+                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bkalan011/tip-calculator">Github link</a></p>
                         </div>
                         <div class="card-reveal brown lighten-5">
                             <span class="card-title black-text text-lighten-5 ">Technologies used:<i class="mdi-navigation-close right "></i></span>
@@ -191,8 +202,9 @@
                             <img class="activator " src="img/stop-screenshot.png">
                         </div>
                         <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 " id="card-title">Stopwatch<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 " href="https://bkalan011.github.io/stopwatch-2.0/">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Stopwatch<i class="mdi-navigation-more-vert right "></i></span>
+                            <p><a class="black-text text-lighten-5 left" href="https://bkalan011.github.io/stopwatch-2.0/">Project link</a></p>
+                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bkalan011/stopwatch">Github link</a></p>
                         </div>
                         <div class="card-reveal brown lighten-5">
                             <span class="card-title black-text text-lighten-5 ">Technologies used:<i class="mdi-navigation-close right "></i></span>
@@ -279,13 +291,13 @@
             <div class="row ">
                 <div class="col s12 l6 ">
                     <h5>About Me</h5>
-                    <p>Web Developer based in Greater Manchester.</p>
+                    <p>Software Developer based in Greater Manchester.</p>
                 </div>
                 <div class="col s12 l4 offset-l2 ">
                     <h5>Connect</h5>
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/bart-kalanski-12749762/" class="grey-text text-lighten-3 ">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/bart-kalanski/" class="grey-text text-lighten-3 ">LinkedIn</a>
                         </li>
                         <li>
                             <a href="https://github.com/bkalan011" class="grey-text text-lighten-3 ">Github</a>
