@@ -16,7 +16,7 @@
         background-size: cover;
         background-position: center;
         position: relative;
-        min-height: 1000px;
+        min-height: 900px;
     }
     
     header>* {
@@ -43,7 +43,62 @@
         background: lightgrey;
         font-family: 'Roboto Mono', monospace;
     }
-    
+    .projects{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        margin-top: 5rem;
+    }
+    .projects-img__container{
+        width: 50%;
+        align-self: flex-start;
+
+    }
+    .projects-img__img{
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+    .projects-content__container{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 1rem;
+        width: 50%;
+    }
+    .projects-content__title{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .projects-title__header{
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .2rem;
+    }
+    .projects__content-links{
+        padding-left: 1rem;
+
+    }
+    .projects-content__description{
+        padding-top: .5rem;
+        
+    }
+    .projects-content__tech{
+        
+    }
+    .icon {
+        font-size: 1.5rem;
+        color: #444;
+    }
+    .icon:hover {
+        color: #432;
+    }
     footer p,
     footer a {
         font-size: 14px;
@@ -110,6 +165,15 @@
         #logo {
             font-size: 2rem;
         }
+        h1 {
+            font-size: 3rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
     }
     
     @media screen and (max-width: 520px) {
@@ -117,10 +181,10 @@
             font-size: 4rem;
         }
         h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
         h3 {
-            font-size: 1rem;
+            font-size: 2rem;
         }
     }
     
@@ -143,6 +207,31 @@
         }
     }
     
+    @media screen and (max-width: 1200px) {
+        .projects{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width:100%;
+            margin-top: 5rem;
+        }
+        .projects-img__container{
+            width: 80%;
+            align-self: center;
+        }
+        .projects-content__container{
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+        }
+        .projects-content__title{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
     @media screen and (min-height: 1000px) {
         #head {
             top: 20vh;

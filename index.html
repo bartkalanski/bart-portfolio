@@ -30,24 +30,24 @@
             <div class="container">
                 <a href="" class="brand-logo white-text hide-on-med-and-down" id="logo">Bart Kalanski</a>
                 <a href="" class="sidenav-trigger" data-target="mobile-menu">
-                    <i class="material-icons grey-text">menu</i>
+                    <i class="material-icons white-text">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#about" class="white-text">About Me</a></li>
                     <li><a href="#projects" class="white-text">Projects</a></li>
                     <li><a href="#contact" class="white-text">Contact</a></li>
                     <li>
-                        <a href="https://www.linkedin.com/in/bart-kalanski/" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="LinkedIn">
+                        <a href="https://www.linkedin.com/in/bart-kalanski/" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="LinkedIn" target="_blank ">
                             <i class="fab fa-LinkedIn"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/bartkalanski" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="Github">
+                        <a href="https://github.com/bartkalanski" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="Github" target="_blank ">
                             <i class="fab fa-github"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/bartkodes" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="Twitter">
+                        <a href="https://twitter.com/bartkodes" class="tooltipped btn-floating btn-small grey text-darken-2" data-tooltip="Twitter" target="_blank ">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
@@ -83,7 +83,7 @@
                         I am a self taught front-end developer, passionate about contributing to open source. I have a working proficiency in React, JavaScript, Redux, Jest/Enzyme, HTML, CSS, Sass, Materialize and I am in the process of learning Node. I have a solid understanding of Git version control.
                     </p>
                     <i class="material-icons">code</i>
-                    <p>My goal is to continually grow as a developer while staying current with the latest trends and technologies. I am looking to further expand my skill set by gaining more in depth back end knowledge.
+                    <p>My goal is to continually grow as a developer while staying current with the latest trends and technologies. I am looking to further expand my skill set by gaining more in depth back-end knowledge.
                     </p>
                     <i class="material-icons">code</i>
                     <p>
@@ -92,7 +92,6 @@
                     <i class="material-icons">arrow_downward</i>
                     <br><br>
                     <div class=" btn grey darken-2 ">
-
                         <a class="white-text " href="https://drive.google.com/file/d/1LTVhWpPz0ZtzVaKduVNQJpfEo1ORVdjp/view?usp=sharing" download="https://drive.google.com/file/d/1LTVhWpPz0ZtzVaKduVNQJpfEo1ORVdjp/view?usp=sharing" target="_blank ">Download My Resume</a>
                         </a>
                     </div>
@@ -104,81 +103,169 @@
     <!--Projects-->
     <section class="scrollspy" id="projects">
         <div class="container">
-            <h3 class="header text_b center ">My Projects </h3>
+            <h3 class="header text_b center">My Projects </h3>
             <div class="row ">
-                <div class="col s12 l4 ">
-                    <div class="card hoverable brown lighten-5">
-                        <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/skyscanner-screenshot.png">
+                <div class="row">
+                    <div class="col projects">
+                        <div class="projects-img__container">
+                            <img class="projects-img__img" src="img/skyscanner-screenshot.png" alt="skyscanner project screenshot">
                         </div>
-                        <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Flight Search App<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 left" href="https://barts-skyscanner.netlify.app/">Project link</a></p>
-                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bartkalanski/flight-search-react">GitHub link</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l4 ">
-                    <div class="card hoverable brown lighten-5">
-                        <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/adam-screenshot.png">
-                        </div>
-                        <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">PT Website (i18n)<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 left" href="https://adamkwiecien.netlify.app/">Project link</a></p>
-                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bartkalanski/adam-website">GitHub link</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l4 ">
-                    <div class="card hoverable brown lighten-5">
-                        <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/wine-store-screenshot.png">
-                        </div>
-                        <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Shopping Cart<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 left" href="https://barts-wine-store.netlify.app/">Project link</a></p>
-                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bartkalanski/wine-store">GitHub link</a></p>
+                        <div class="projects-content__container">
+                            <div class="projects-content__title">
+                                <div class="projects-title__header">Flight Search</div>
+                                <div class="projects__content-links">
+                                    <a class="" href="https://barts-skyscanner.netlify.app/" target="_blank "><i class="fas fa-external-link-alt icon"></i></a>
+                                    <a class="" href="https://github.com/bartkalanski/flight-search-react" target="_blank "><i class="fab fa-github icon"></i></a>
+                                </div>
+                            </div>
+                            <div class="projects-content__description">Responsive Skyscanner-style flight search.<br>It is React Hooks based and it uses Skyscanner API to extract data.</div>
+                            <div class="projects-content__tech">
+                                <ul>
+                                    <li> <i class="fas fa-arrow-right"></i> React Hooks</li>
+                                    <li> <i class="fas fa-arrow-right"></i> HTML</li>
+                                    <li> <i class="fas fa-arrow-right"></i> CSS</li>
+                                    <li><i class="fas fa-arrow-right"></i> Skyscanner API</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Jest/Enzyme</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 l4 ">
-                    <div class="card hoverable brown lighten-5">
-                        <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/youtube-screenshot.png ">
+                <div class="row">
+                    <div class="col projects">
+                        <div class="projects-img__container">
+                            <img class="projects-img__img" src="img/bucket-list-screenshot.png" alt="Bucket list web application screenshot">
                         </div>
-                        <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Video Search <i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 left" href="https://barts-youtube.netlify.app/" target="_blank ">Project link</a></p>
-                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bartkalanski/barts-youtube">GitHub link</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l4 ">
-                    <div class="card hoverable brown lighten-5">
-                        <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/bucket-list-screenshot.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Bucket List<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 left" href="https://barts-bucket-list.netlify.app/ " target="_blank ">Project link</a></p>
-                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bartkalanski/bucket-list">GitHub link</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l4 ">
-                    <div class="card hoverable brown lighten-5">
-                        <div class="card-image waves-effect waves-block waves-light ">
-                            <img class="activator " src="img/hiking-guide-screenshot.jpg">
-                        </div>
-                        <div class="card-content ">
-                            <span class="card-title activator black-text text-lighten-5 center" id="card-title">Hiking Guide<i class="mdi-navigation-more-vert right "></i></span>
-                            <p><a class="black-text text-lighten-5 left" href="https://hiking-guide.netlify.app/">Project link</a></p>
-                            <p><a class="black-text text-lighten-5 right" href="https://github.com/bartkalanski/hiking-guide">GitHub link</a></p>
+                        <div class="projects-content__container">
+                            <div class="projects-content__title">
+                                <div class="projects-title__header">Bucket List</div>
+                                <div class="projects__content-links">
+                                    <a class="" href="https://barts-bucket-list.netlify.app/" target="_blank "><i class="fas fa-external-link-alt icon"></i></a>
+                                    <a class="" href="https://github.com/bartkalanski/bucket-list" target="_blank "><i class="fab fa-github icon"></i></a>
+                                </div>
+                            </div>
+                            <div class="projects-content__description">Bucket List is a bucket list maker! <br> It's my first full-stack project, it uses React/Redux on the front end, Firebase for authentication, and Cloud Firestore as a database.</div>
+                            <div class="projects-content__tech">
+                                <ul>
+                                    <li> <i class="fas fa-arrow-right"></i> React</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Redux</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Firebase/ Firestore</li>
+                                    <li><i class="fas fa-arrow-right"></i> HTML</li>
+                                    <li><i class="fas fa-arrow-right"></i> CSS</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Semantic UI</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Jest/Enzyme</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-
+                <div class="row">
+                    <div class="col projects">
+                        <div class="projects-img__container">
+                            <img class="projects-img__img" src="img/wine-store-screenshot.png" alt="Wine store website screenshot">
+                        </div>
+                        <div class="projects-content__container">
+                            <div class="projects-content__title">
+                                    <div class="projects-title__header">Shopping Cart</div>
+                                    <div class="projects__content-links">
+                                        <a class="" href="https://barts-wine-store.netlify.app/" target="_blank "><i class="fas fa-external-link-alt icon"></i></a>
+                                        <a class="" href="https://github.com/bartkalanski/wine-store" target="_blank "><i class="fab fa-github icon"></i></a>
+                                    </div>
+                                </div>
+                            <div class="projects-content__description">Shopping Cart is a basic E-commerce website.<br> The focus here was to get comfortable using Redux, and then to be able to write unit tests with Jest and Enzyme.</div>
+                            <div class="projects-content__tech">
+                                <ul>
+                                    <li> <i class="fas fa-arrow-right"></i> React Hooks</li>
+                                    <li> <i class="fas fa-arrow-right"></i> React Router</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Redux</li>
+                                    <li> <i class="fas fa-arrow-right"></i> HTML</li>
+                                    <li><i class="fas fa-arrow-right"></i> CSS</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Semantic UI</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Jest/ Enzyme</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col projects">
+                        <div class="projects-img__container">
+                            <img class="projects-img__img" src="img/adam-screenshot.png" alt="i18y website screenshot">
+                        </div>
+                        <div class="projects-content__container">
+                            <div class="projects-content__title">
+                                <div class="projects-title__header">PT Website (i18n)</div>
+                                <div class="projects__content-links">
+                                    <a class="" href="https://adamkwiecien.netlify.app/" target="_blank "><i class="fas fa-external-link-alt icon"></i></a>
+                                    <a class="" href="https://github.com/bartkalanski/adam-website" target="_blank "><i class="fab fa-github icon"></i></a>
+                                </div> 
+                            </div>
+                            <div class="projects-content__description">Responsive bilingual single page website.<br>I wanted to design and build a bilingual brochure website.</div>
+                            <div class="projects-content__tech">
+                                <ul>
+                                    <li> <i class="fas fa-arrow-right"></i> Javascript</li>
+                                    <li> <i class="fas fa-arrow-right"></i> HTML</li>
+                                    <li> <i class="fas fa-arrow-right"></i> CSS</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Sass</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col projects">
+                        <div class="projects-img__container">
+                            <img class="projects-img__img" src="img/youtube-screenshot.png" alt="Bucket list web application screenshot">
+                        </div>
+                        <div class="projects-content__container">
+                            <div class="projects-content__title">
+                                <div class="projects-title__header">Video Search</div>
+                                <div class="projects__content-links">
+                                    <a class="" href="https://barts-youtube.netlify.app/" target="_blank "><i class="fas fa-external-link-alt icon"></i></a>
+                                    <a class="" href="https://github.com/bartkalanski/barts-youtube" target="_blank "><i class="fab fa-github icon"></i></a>
+                                </div>
+                                </div>
+                            <div class="projects-content__description">Youtube-like video search app. <br> I built this to practice using React Hooks and testing with Jest and Enzyme.</div>
+                            <div class="projects-content__tech">
+                                <ul>
+                                    <li> <i class="fas fa-arrow-right"></i> React Hooks</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Youtube API</li>
+                                    <li> <i class="fas fa-arrow-right"></i> HTML</li>
+                                    <li><i class="fas fa-arrow-right"></i> CSS</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Semantic UI</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Jest/Enzyme</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col projects">
+                        <div class="projects-img__container">
+                            <img class="projects-img__img" src="img/hiking-guide-screenshot.jpg" alt="Bucket list web application screenshot">
+                        </div>
+                        <div class="projects-content__container">
+                            <div class="projects-content__title">
+                                <div class="projects-title__header">Hiking Guide</div>
+                                <div class="projects__content-links">
+                                    <a class="" href="https://hiking-guide.netlify.app/" target="_blank "><i class="fas fa-external-link-alt icon"></i></a>
+                                    <a class="" href="https://github.com/bartkalanski/hiking-guide" target="_blank "><i class="fab fa-github icon"></i></a>
+                                </div>
+                                </div>
+                            <div class="projects-content__description">Hiking Guide is a web application which helps users to find trails near where they are based.<br> As a keen hiker I had a lot of fun building this, it's Vanilla JS based and it was one of the last JS projects I built before I started to learn React.</div>
+                            <div class="projects-content__tech">
+                                <ul>
+                                    <li> <i class="fas fa-arrow-right"></i> JavaScript</li>
+                                    <li> <i class="fas fa-arrow-right"></i> HTML</li>
+                                    <li> <i class="fas fa-arrow-right"></i> CSS</li>
+                                    <li><i class="fas fa-arrow-right"></i> Webpack</li>
+                                    <li> <i class="fas fa-arrow-right"></i> OpenCage Geocoding API</li>
+                                    <li> <i class="fas fa-arrow-right"></i> Hiking Project API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
     </section>
     <!-- parallax -->
@@ -208,8 +295,6 @@
                                 <label for="message">Message</label>
                             </div>
                         </div>
-
-                        <div class="divider"></div>
                         <div class="row">
                             <div class="col m12">
                                 <p class="right-align"><button class="btn btn-large waves-effect waves-light grey darken-3" type="submit" name="action">Send Message</button></p>
@@ -226,26 +311,26 @@
             <div class="row ">
                 <div class="col s12 l6 ">
                     <h5>About Me</h5>
-                    <p>Software Developer based in Greater Manchester.</p>
+                    <p>Front-End based in Greater Manchester.</p>
                 </div>
                 <div class="col s12 l4 offset-l2 ">
                     <h5>Connect</h5>
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/bart-kalanski/" class="grey-text text-lighten-3 ">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/bart-kalanski/" class="grey-text text-lighten-3 " target="_blank ">LinkedIn</a>
                         </li>
                         <li>
-                            <a href="https://github.com/bartkalanski" class="grey-text text-lighten-3 ">Github</a>
+                            <a href="https://github.com/bartkalanski" class="grey-text text-lighten-3 " target="_blank ">Github</a>
                         </li>
                         <li>
-                            <a href="# " class="grey-text text-lighten-3 ">My Resume</a>
+                            <a href="https://drive.google.com/file/d/1LTVhWpPz0ZtzVaKduVNQJpfEo1ORVdjp/view?usp=sharing" download="https://drive.google.com/file/d/1LTVhWpPz0ZtzVaKduVNQJpfEo1ORVdjp/view?usp=sharing" target="_blank " class="grey-text text-lighten-3 ">My Resume</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright grey darken-4 ">
-            <div class="container center-align ">&copy; 2020 Bart Kalanski</div>
+            <div class="container center-align ">&copy; 2021 Bart Kalanski</div>
         </div>
     </footer>
 
